@@ -134,4 +134,4 @@ MIT License. See [LICENSE](LICENSE) for full text.
 
 ## Support
 For issues or questions, please open a GitHub Issue or contact:
-- Database Architect: [DANIEL MUTUA] (dannydophlix@.com)
+- Database Architect: DANIEL MUTUA (dannydophlix@.com)
