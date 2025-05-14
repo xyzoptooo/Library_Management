@@ -47,10 +47,11 @@ This repository contains a comprehensive, production-grade database schema for a
 
 ### Prerequisites
 - MySQL 8.0+ or compatible RDBMS
-- 2GB+ storage (depending on collection size)
-- UTF-8 character encoding support
+
 
 ### Deployment
+
+#### Option 1: Import schema from individual SQL files
 1. Create the database:
    ```sql
    CREATE DATABASE library_management 
@@ -69,6 +70,15 @@ This repository contains a comprehensive, production-grade database schema for a
    SHOW TABLES;
    SELECT COUNT(*) FROM app_role; -- Should return 3
    ```
+
+#### Option 2: Import entire schema from library.sql
+Alternatively, you can import the full database schema and initial data in one step using the provided `library.sql` file:
+
+```bash
+mysql -u [username] -p < library.sql
+```
+
+This file includes the database creation, all tables, indexes, and initial data inserts.
 
 ## Configuration
 
